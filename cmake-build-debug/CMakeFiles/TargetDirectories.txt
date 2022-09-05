@@ -1,0 +1,11 @@
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/C.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/time1.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/clock.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/asctime.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/localtime.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/ctime.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/pointer.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/test.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/lian.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir

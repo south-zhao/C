@@ -11,7 +11,7 @@ int main ()
 
     time( &timer );
     Now = localtime( &timer );
-    printf("当前的本地时间和日期：%s", asctime(Now));
+    printf("本地时间：%s", asctime(Now));
 
     return(0);
 }

@@ -8,388 +8,450 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 C"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 C"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C/fast">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 C/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="time1">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/time1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 time1"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="time1/fast">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/time1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 time1/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 C/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clock">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/clock.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/clock.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clock"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clock"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clock/fast">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/clock.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/clock.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clock/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clock/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="asctime">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/asctime.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/asctime.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 asctime"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 asctime"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="asctime/fast">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/asctime.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/asctime.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 asctime/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 asctime/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="localtime">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/localtime.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/localtime.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 localtime"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 localtime"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="localtime/fast">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/localtime.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/localtime.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 localtime/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ctime">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/ctime.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctime"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ctime/fast">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/ctime.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctime/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 localtime/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pointer">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/pointer.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/pointer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pointer/fast">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/pointer.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/pointer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test/fast">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lian">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/lian.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/lian.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 lian"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 lian"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lian/fast">
-				<Option output="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/lian.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/lian.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 lian/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 lian/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ctime">
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/ctime.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctime"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ctime/fast">
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/ctime.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctime/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time1">
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/time1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 time1"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time1/fast">
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/time1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 time1/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqList">
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/sqList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqList"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqList/fast">
+				<Option output="C:/Users/22525/Desktop/Code/C/cmake-build-debug/sqList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Bin/tools/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqList/fast"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug"/>
+				<Option working_dir="C:/Users/22525/Desktop/Code/C/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/south-zhao/Desktop/C-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/tools/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/22525/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/lian.c">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/head/sqList.h">
+			<Option target="sqList"/>
+		</Unit>
+		<Unit filename="C:/Users/22525/Desktop/Code/C/lian.c">
 			<Option target="lian"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/main.c">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/main.c">
 			<Option target="C"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/pointer.c">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/math/Sqlist.c">
+			<Option target="sqList"/>
+		</Unit>
+		<Unit filename="C:/Users/22525/Desktop/Code/C/pointer.c">
 			<Option target="pointer"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/test.c">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/test.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/time/asctime.c">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/time/asctime.c">
 			<Option target="asctime"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/time/clock.c">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/time/clock.c">
 			<Option target="clock"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/time/ctime.c">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/time/ctime.c">
 			<Option target="ctime"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/time/localtime.c">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/time/localtime.c">
 			<Option target="localtime"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/time/time1.c">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/time/time1.c">
 			<Option target="time1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/south-zhao/Desktop/C-master/CMakeLists.txt">
+		<Unit filename="C:/Users/22525/Desktop/Code/C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

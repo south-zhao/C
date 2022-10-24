@@ -14,3 +14,6 @@ add_executable(lian lian.c)
 add_executable(ctime time/ctime.c)
 add_executable(time1 time/time1.c)
 add_executable(sqList head/sqList.h math/Sqlist.c)
+add_executable(node head/node.h Node.c)
+
+add_executable(fil new/fil.c)

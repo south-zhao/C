@@ -8,5 +8,7 @@ C:/Users/22525/Desktop/Code/C/cmake-build-debug/CMakeFiles/lian.dir
 C:/Users/22525/Desktop/Code/C/cmake-build-debug/CMakeFiles/ctime.dir
 C:/Users/22525/Desktop/Code/C/cmake-build-debug/CMakeFiles/time1.dir
 C:/Users/22525/Desktop/Code/C/cmake-build-debug/CMakeFiles/sqList.dir
+C:/Users/22525/Desktop/Code/C/cmake-build-debug/CMakeFiles/node.dir
+C:/Users/22525/Desktop/Code/C/cmake-build-debug/CMakeFiles/fil.dir
 C:/Users/22525/Desktop/Code/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/22525/Desktop/Code/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

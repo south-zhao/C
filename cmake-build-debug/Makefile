@@ -245,6 +245,56 @@ sqList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqList.dir\build.make CMakeFiles/sqList.dir/build
 .PHONY : sqList/fast
 
+#=============================================================================
+# Target rules for targets named node
+
+# Build rule for target.
+node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 node
+.PHONY : node
+
+# fast build rule for target.
+node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\node.dir\build.make CMakeFiles/node.dir/build
+.PHONY : node/fast
+
+#=============================================================================
+# Target rules for targets named fil
+
+# Build rule for target.
+fil: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fil
+.PHONY : fil
+
+# fast build rule for target.
+fil/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fil.dir\build.make CMakeFiles/fil.dir/build
+.PHONY : fil/fast
+
+Node.obj: Node.c.obj
+.PHONY : Node.obj
+
+# target to build an object file
+Node.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\node.dir\build.make CMakeFiles/node.dir/Node.c.obj
+.PHONY : Node.c.obj
+
+Node.i: Node.c.i
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\node.dir\build.make CMakeFiles/node.dir/Node.c.i
+.PHONY : Node.c.i
+
+Node.s: Node.c.s
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\node.dir\build.make CMakeFiles/node.dir/Node.c.s
+.PHONY : Node.c.s
+
 lian.obj: lian.c.obj
 .PHONY : lian.obj
 
@@ -316,6 +366,30 @@ math/Sqlist.s: math/Sqlist.c.s
 math/Sqlist.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqList.dir\build.make CMakeFiles/sqList.dir/math/Sqlist.c.s
 .PHONY : math/Sqlist.c.s
+
+new/fil.obj: new/fil.c.obj
+.PHONY : new/fil.obj
+
+# target to build an object file
+new/fil.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fil.dir\build.make CMakeFiles/fil.dir/new/fil.c.obj
+.PHONY : new/fil.c.obj
+
+new/fil.i: new/fil.c.i
+.PHONY : new/fil.i
+
+# target to preprocess a source file
+new/fil.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fil.dir\build.make CMakeFiles/fil.dir/new/fil.c.i
+.PHONY : new/fil.c.i
+
+new/fil.s: new/fil.c.s
+.PHONY : new/fil.s
+
+# target to generate assembly for a file
+new/fil.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fil.dir\build.make CMakeFiles/fil.dir/new/fil.c.s
+.PHONY : new/fil.c.s
 
 pointer.obj: pointer.c.obj
 .PHONY : pointer.obj
@@ -497,12 +571,17 @@ help:
 	@echo ... asctime
 	@echo ... clock
 	@echo ... ctime
+	@echo ... fil
 	@echo ... lian
 	@echo ... localtime
+	@echo ... node
 	@echo ... pointer
 	@echo ... sqList
 	@echo ... test
 	@echo ... time1
+	@echo ... Node.obj
+	@echo ... Node.i
+	@echo ... Node.s
 	@echo ... lian.obj
 	@echo ... lian.i
 	@echo ... lian.s
@@ -512,6 +591,9 @@ help:
 	@echo ... math/Sqlist.obj
 	@echo ... math/Sqlist.i
 	@echo ... math/Sqlist.s
+	@echo ... new/fil.obj
+	@echo ... new/fil.i
+	@echo ... new/fil.s
 	@echo ... pointer.obj
 	@echo ... pointer.i
 	@echo ... pointer.s

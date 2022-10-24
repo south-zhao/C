@@ -1,0 +1,3 @@
+"C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\asctime.dir/objects.a
+C:\Bin\tools\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\asctime.dir/objects.a @CMakeFiles\asctime.dir\objects1.rsp
+C:\Bin\tools\CLION2~1.1\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\asctime.dir/objects.a -Wl,--no-whole-archive -o asctime.exe -Wl,--out-implib,libasctime.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\asctime.dir\linklibs.rsp

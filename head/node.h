@@ -12,7 +12,7 @@ typedef int ElemType;
 typedef struct {
     ElemType data;
     int cur;
-}component, SLinklist[MAXSIZE];
+}SLinklist[MAXSIZE];
 // 初始化
 void CreateList_L(SLinklist space);
 //节点分配

@@ -5,21 +5,30 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    char linedata[1024];
-    FILE *fp=fopen("C:\\Users\\22525\\Desktop\\Code\\C\\new\\test.txt","r");
-    FILE *fpw=fopen("C:\\Users\\22525\\Desktop\\Code\\C\\new\\tmp.txt","w");
-    while (fgets(linedata,sizeof(linedata)-1,fp))
+    FILE *in=fopen("C:\\Users\\22525\\Desktop\\Code\\C\\new\\tmp.txt","r");
+    FILE *out=fopen("C:\\Users\\22525\\Desktop\\Code\\C\\new\\back.txt","w");  /*out是充当临时文件作用*/
+    int ch=0;
+    if(!in)
     {
-        if (strcmp(linedata,"bbb\n")==0)
-        {
-            fputs("ModContent\n",fpw);
-        }else
-            fputs(linedata,fpw);
+        printf("cann't open test.txt\n");
+        exit(1);
     }
-    fclose(fp);
-    fclose(fpw);
-    system("del data.txt");
-    system("rename tmp.txt data.txt");
+    if(!out)
+    {
+        printf("cann't create back.txt\n");
+        exit(1);
+    }
+    /*开始复制*/
+    while(!feof(in))
+    {
+        ch=fgetc(in);
+        if(ch=='a') ch='p';
+        fputc(ch,out);
+    }
+    fclose(in);  fclose(out);
+    unlink("f:\\test.txt"); /*删除test.txt*/
+    rename("f:\\back.txt","test.txt"); /*改名*/
+    printf("ok!!!!!!\n");
 //    FILE *p;
 //
 //    char ch;

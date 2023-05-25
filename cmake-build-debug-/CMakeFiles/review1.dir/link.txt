@@ -1,0 +1,3 @@
+"C:\Bin\tools\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\review1.dir/objects.a
+C:\Bin\tools\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\review1.dir/objects.a @CMakeFiles\review1.dir\objects1.rsp
+C:\Bin\tools\CLION2~1.4\bin\mingw\bin\gcc.exe --coverage -g -Wl,--whole-archive CMakeFiles\review1.dir/objects.a -Wl,--no-whole-archive -o review1.exe -Wl,--out-implib,libreview1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\review1.dir\linklibs.rsp

@@ -1,3 +1,0 @@
-"C:\Bin\tools\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sqList.dir/objects.a
-C:\Bin\tools\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\sqList.dir/objects.a @CMakeFiles\sqList.dir\objects1.rsp
-C:\Bin\tools\CLION2~1.4\bin\mingw\bin\gcc.exe --coverage -g -Wl,--whole-archive CMakeFiles\sqList.dir/objects.a -Wl,--no-whole-archive -o sqList.exe -Wl,--out-implib,libsqList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sqList.dir\linklibs.rsp

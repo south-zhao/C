@@ -1,3 +1,0 @@
-"C:\Bin\tools\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\fc.dir/objects.a
-C:\Bin\tools\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\fc.dir/objects.a @CMakeFiles\fc.dir\objects1.rsp
-C:\Bin\tools\CLION2~1.4\bin\mingw\bin\gcc.exe --coverage -g -Wl,--whole-archive CMakeFiles\fc.dir/objects.a -Wl,--no-whole-archive -o fc.exe -Wl,--out-implib,libfc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fc.dir\linklibs.rsp

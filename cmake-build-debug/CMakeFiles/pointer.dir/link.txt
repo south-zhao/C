@@ -1,3 +1,0 @@
-"C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\pointer.dir/objects.a
-C:\Bin\tools\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\pointer.dir/objects.a @CMakeFiles\pointer.dir\objects1.rsp
-C:\Bin\tools\CLION2~1.1\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\pointer.dir/objects.a -Wl,--no-whole-archive -o pointer.exe -Wl,--out-implib,libpointer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pointer.dir\linklibs.rsp

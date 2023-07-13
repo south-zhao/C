@@ -1,26 +1,6 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.25)
 project(C C)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 17)
 
 add_executable(C main.c)
-
-add_executable(clock time/clock.c)
-add_executable(asctime time/asctime.c)
-add_executable(localtime time/localtime.c)
-add_executable(pointer pointer.c)
-add_executable(test test.c)
-add_executable(lian lian.c)
-add_executable(ctime time/ctime.c)
-add_executable(time1 time/time1.c)
-add_executable(sqList head/sqList.h head/Sqlist.c)
-add_executable(node head/node.h head/Node.c)
-
-add_executable(fil new/fil.c)
-
-add_executable(fc fc.c)
-add_executable(chuan head/chuan.h head/chuan.c)
-add_executable(xishu head/xishu.h head/xishu.c)
-
-add_executable(KMP2 KMP2.c)
-

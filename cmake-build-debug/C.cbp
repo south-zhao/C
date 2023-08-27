@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 C"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C/fast">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 C/fast"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.2">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.2"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.2/fast">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.2/fast"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.3">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.3"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.3/fast">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.3/fast"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.4">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.4"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.4/fast">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.4/fast"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.5">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.5"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.5/fast">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.5/fast"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.9">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.9"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.9/fast">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.9/fast"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.10">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.10.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.10"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.10/fast">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/3.10.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.10/fast"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="E3.1">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/E3.1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 E3.1"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="E3.1/fast">
+				<Option output="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/E3.1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Bin/IDEA/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 E3.1/fast"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/xjiez/Desktop/Code/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Bin/IDEA/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/xjiez/Desktop/Code/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/xjiez/Desktop/Code/C/main.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="C:/Users/xjiez/Desktop/Code/C/unit3/3.10.c">
+			<Option target="3.10"/>
+		</Unit>
+		<Unit filename="C:/Users/xjiez/Desktop/Code/C/unit3/3.2.c">
+			<Option target="3.2"/>
+		</Unit>
+		<Unit filename="C:/Users/xjiez/Desktop/Code/C/unit3/3.3.c">
+			<Option target="3.3"/>
+		</Unit>
+		<Unit filename="C:/Users/xjiez/Desktop/Code/C/unit3/3.4.c">
+			<Option target="3.4"/>
+		</Unit>
+		<Unit filename="C:/Users/xjiez/Desktop/Code/C/unit3/3.5.c">
+			<Option target="3.5"/>
+		</Unit>
+		<Unit filename="C:/Users/xjiez/Desktop/Code/C/unit3/3.9.c">
+			<Option target="3.9"/>
+		</Unit>
+		<Unit filename="C:/Users/xjiez/Desktop/Code/C/unit3/E3.1.c">
+			<Option target="E3.1"/>
+		</Unit>
+		<Unit filename="C:/Users/xjiez/Desktop/Code/C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

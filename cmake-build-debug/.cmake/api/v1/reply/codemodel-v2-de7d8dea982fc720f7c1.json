@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3.10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.10-Debug-ea36e483c58a10acd6f0.json",
+					"name" : "3.10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.2-Debug-e81cf3069cf10e83d25b.json",
+					"name" : "3.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.3-Debug-259f5c7f612ccc9d5bc5.json",
+					"name" : "3.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.4-Debug-58197d9edcd980f64c1a.json",
+					"name" : "3.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3.5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.5-Debug-d680327aa6bb29e00160.json",
+					"name" : "3.5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3.9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.9-Debug-2093bfaedb2f6bd016ac.json",
+					"name" : "3.9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C-Debug-935b234c6694e27c75a3.json",
+					"name" : "C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "E3.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-E3.1-Debug-e376eb1baca50f19b679.json",
+					"name" : "E3.1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/xjiez/Desktop/Code/C/cmake-build-debug",
+		"source" : "C:/Users/xjiez/Desktop/Code/C"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

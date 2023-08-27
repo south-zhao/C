@@ -1,0 +1,3 @@
+"C:\Bin\IDEA\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\E3.1.dir/objects.a
+C:\Bin\IDEA\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\E3.1.dir/objects.a @CMakeFiles\E3.1.dir\objects1.rsp
+C:\Bin\IDEA\CLION2~1.2\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\E3.1.dir/objects.a -Wl,--no-whole-archive -o E3.1.exe -Wl,--out-implib,libE3.1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\E3.1.dir\linkLibs.rsp
